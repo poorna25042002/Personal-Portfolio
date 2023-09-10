@@ -343,12 +343,7 @@ nav .fas{
         left: 30px;
         cursor:pointer;
     }
-    nav  .fas {
-        position:fixed;
-        top: 50px;
-        left: 325px;
-        cursor:pointer;
-    }
+   
     .sub-titile {
         font-size: 40px;
     }
