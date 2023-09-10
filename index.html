@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="port_chandra.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo.PNG">
+            <ul id="sidemenu">
+                <li><a href="#hme" >HOME</a></li>
+                <li><a href="#about" >ABOUT</a></li>
+                <li><a href="#services" >MY SERVICES</a></li>
+                <li><a href="#contact" >HIREME</a></li>
+                <i class="fas fa-times" onclick="closemenu()" ></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="detel" id="hme">
+            <h1>I,m kurasala Poorna <span id="span1">Chandra Sekhar</span></h1>
+            <p>This is my official portfolio website to shows<br> all
+                Details and work expirins <span id="web">web development</span>
+            </p>
+            <a href="C:\Users\CHANDRASEKHAR\Desktop\RESUME_CHANDRA.pdf" download>DOWNLOAD CV</a>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="chandrasekhar.jpg" id = img1>
+                    
+                
+                </div> 
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span id="abtme">About Me</span></h1>
+                    <p>I am a recent B.Tech graduate with a degree in Mechanical Engineering and a passion for technology and innovation. Throughout my academic journey, I've consistently demonstrated my commitment to excellence.I am a quick learner with a natural curiosity for emerging technologies, and I am eager to apply my skills in a professional setting. I am particularly interested in software development roles where I can contribute to building innovative solutions and making a meaningful impact.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab()" >Skills</p> 
+                        <p class="tab-links" onclick="opentab1()">Experience</p>
+                        <p class="tab-links" onclick="opentab2()">Education</p>
+                    </div>
+                    <div class="para">
+                        <p id="location">UI/UX  <br> Designing Web app interfaces <br><br> Web Development<br> Web app development <br><br> Core Java <br> Developer</p>
+                    </div>
+                   
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span id="myser">My Services</span>  </h1>
+            <div class="services-list">
+                <div class="">
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design involves creating visually appealing and user-friendly websites. It includes designing layouts, selecting color schemes, and optimizing for different devices. .</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="">
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI (User Interface) design focuses on the visual and interactive aspects of a digital product, ensuring a visually appealing and intuitive layout. UX (User Experience) design emphasizes the overall user journey and satisfaction, aiming to create a seamless and enjoyable interaction with the product.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="">
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design involves creating the user interface (UI) and user experience (UX) for a mobile or web application, with a focus on aesthetics and functionality to deliver an engaging and user-friendly digital experience. It encompasses the visual design, layout, navigation, and interactions to meet the needs and preferences of the app's target audience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><span id="ctcme"> ContactMe</span></h1>
+                    <p><i class="fas fa-paper-plane"></i>Poornakurasala007@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+917013826798</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100083324753484&mibextid=2JQ9oc"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/poorna0007?t=X-HLl-TP73pfh5CxEoCFrg&s=09"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/poorna____007?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chandra-sekhar-08962724a"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" onsubmit="setTimeout(function(){window.location.reload();},10);">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" cols="30" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>CopyRight ©️ Chandra.Made With Simple Tutorial</p>
+        </div>
+    </div>
+
+    <script>
+        function opentab() {
+            document.getElementById("location").innerHTML="UI/UX  <br> Designing Web app interfaces <br><br> Web Development<br> Web app development <br><br> Core Java <br> Developer"
+
+        }
+        function opentab1() {
+            document.getElementById("location").innerHTML="As of know,<br><br> Recently graduated from Btech.So i have experience from my own projects  "
+
+        }
+        function opentab2() {
+            document.getElementById("location").innerHTML="2018 <br> I completed my schooling at bhashyam high school <br><br>2020 <br> I completed my intermediate at Sri Chaithanya Jr College<br><br>2024<br>BTech graduate at NIT Mizoram"
+
+        }
+         
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw8Xd6iksdNdgpAsnBnEUKSAzgU6ftnI4XKsT30xjCo6uTUUpmJsL9FXDDARysUxRCJbw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+   
+
+
+    
+</body>
+</html>
