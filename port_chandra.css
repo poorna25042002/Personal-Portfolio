@@ -324,11 +324,11 @@ nav .fas{
     }
     nav ul {
         background: #ff004f;
-        position:absolute;
+        position:fixed;
         top: -25px;
         right: -200px;
         width: 200px;
-        height: 100vh;
+        height: 30vh;
         padding-top: 50px;
         z-index: 2;
         transition:right 0.5s;
@@ -338,9 +338,15 @@ nav .fas{
         margin:25px;
     }
     nav ul .fas {
-        position: absolute;
-        top: 25px;
-        left: 25px;
+        position:absolute;
+        top: 20px;
+        left: 30px;
+        cursor:pointer;
+    }
+    nav  .fas {
+        position:fixed;
+        top: 50px;
+        left: 325px;
         cursor:pointer;
     }
     .sub-titile {
@@ -444,8 +450,9 @@ nav .fas{
 
 
 }
-    #OH{
-        overflow-x:hidden;
+#OH {
+    overflow-x: hidden;
+}
 }
 
 
